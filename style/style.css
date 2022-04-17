@@ -1,0 +1,56 @@
+/*FONT*/
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("style\font\Poppins-Bold") format("ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("style\font\Poppins-Regular") format("ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins-Bold", sans-serif;
+    line-height: 1.3;
+}
+
+p, a {
+    font-family: "Poppins-Regular", sans-serif;
+    line-height: 1.5;
+}
+
+/*IMMAGINI*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 50%;
+}
+
+/*ICONE CONTACT ME*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    width: 35px;
+    height: 35px;
+}
+    
+/*FOOTER*/
+footer {
+    width:100%;
+    background-color: rebeccapurple;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.3;
+    padding-top: 15px;
+}
